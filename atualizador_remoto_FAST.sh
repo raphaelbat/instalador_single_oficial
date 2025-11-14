@@ -57,17 +57,17 @@ backup_app_atualizar() {
   } || trata_erro "backup_app_atualizar"
 
 # Dados do Whaticket
-TOKEN="ultranotificacoes"
+TOKEN="uvvv"
 QUEUE_ID="15"
 USER_ID=""
 MENSAGEM="🚨 INICIANDO Atualização "FAST" do ${nome_titulo}"
 
 # Lista de números
-NUMEROS=("${numero_suporte}" "5518988029627")
+NUMEROS=("${numero_suporte}" "5512")
 
 # Enviar para cada número
 for NUMERO in "${NUMEROS[@]}"; do
-  curl -s -X POST https://apiweb.ultrawhats.com.br/api/messages/send \
+  curl -s -X POST http \
     -H "Authorization: Bearer $TOKEN" \
     -H "Content-Type: application/json" \
     -d '{
