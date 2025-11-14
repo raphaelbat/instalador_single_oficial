@@ -1049,7 +1049,7 @@ instala_backend_base() {
     # subdominio_perfex=https://${subdominio_perfex}
     sudo su - deploy <<EOF
   cat <<[-]EOF > /home/deploy/${empresa}/backend/.env
-# Scripts WhiteLabel - All Rights Reserved - (18) 9 8802-9627
+# Scripts equipechat  - 55 81 9998-8876
 NODE_ENV=
 BACKEND_URL=${subdominio_backend}
 FRONTEND_URL=${subdominio_frontend}
